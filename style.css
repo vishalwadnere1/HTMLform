@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  form {
+    margin-bottom: 20px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th,
+  td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+
+  #submitBtn{
+    cursor: pointer;
+  }
+
+  .container{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .heading{
+    text-align: center;
+  }
+
+  .section{
+    display: grid;
+  }
+
+  .main{
+    display: flex;
+    justify-content:center;
+    column-gap: 20px;
+    flex-wrap: wrap;
+  }
+
+
+  
